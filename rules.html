@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Krampon Quiz | Futbol Kuralları</title>
+  <meta name="description" content="Futbolun temel kuralları, ölçüler ve terimler: kısa, anlaşılır notlar."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand"><div class="logo"></div><div><b>Krampon Quiz</b><span>Kurallar & terimler</span></div></div>
+      <div class="links">
+        <a href="index.html">Anasayfa</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="faq.html">SSS</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+    </nav>
+
+    <div class="hero content">
+      <h1>Futbol Kuralları ve Temel Bilgiler</h1>
+      <p>Bu sayfa, quiz sorularının dayandığı temel kavramları kısa notlar hâlinde sunar.</p>
+
+      <h2>Temel ölçüler</h2>
+      <ul>
+        <li><b>Kale:</b> 7,32 m genişlik × 2,44 m yükseklik</li>
+        <li><b>Penaltı noktası:</b> 11 m</li>
+        <li><b>Ceza sahası:</b> 16,5 m ölçüsüyle tanımlanır</li>
+      </ul>
+
+      <h2>Temel kurallar</h2>
+      <ul>
+        <li>Takımlar sahaya <b>11</b> oyuncu ile çıkar.</li>
+        <li>Topun gol sayılması için <b>kale çizgisini tamamen</b> geçmesi gerekir.</li>
+        <li>Kırmızı kart: oyuncu oyundan çıkar, takım <b>10 kişi</b> devam eder.</li>
+        <li>Taç atışı iki elle ve baş üstünden yapılır.</li>
+      </ul>
+
+      <h2>Terimler</h2>
+      <ul>
+        <li><b>Hat-trick:</b> Bir maçta 3 gol.</li>
+        <li><b>Derbi:</b> Yerel rakip takımların maçı.</li>
+        <li><b>Pres:</b> Rakip topa sahipken baskı uygulama.</li>
+        <li><b>4-4-2:</b> Diziliş (formasyon).</li>
+      </ul>
+
+      <hr/>
+      <p class="mini">Not: Bu sayfa eğitim amaçlıdır. Resmî kural metinleri IFAB/FIFA kaynaklarındadır.</p>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Krampon Quiz</div>
+      <div><a href="privacy.html">Gizlilik</a> · <a href="cookies.html">Çerez</a> · <a href="terms.html">Şartlar</a></div>
+    </div>
+  </div>
+
+  <div class="cookie" id="cookieBanner">
+    <div class="row">
+      <p>Çerez tercihlerin için: <a href="cookies.html" style="color:#eaf0ff">Çerez Politikası</a></p>
+      <div class="actions">
+        <button id="cookieReject" type="button">Reddet</button>
+        <button class="accept" id="cookieAccept" type="button">Kabul Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Krampon Quiz | SSS</title>
+  <meta name="description" content="Krampon Quiz sık sorulan sorular."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand"><div class="logo"></div><div><b>Krampon Quiz</b><span>Sık Sorulan Sorular</span></div></div>
+      <div class="links">
+        <a href="index.html">Anasayfa</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="rules.html">Kurallar</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+    </nav>
+
+    <div class="hero content">
+      <h1>SSS</h1>
+
+      <h2>Sorular neden tekrar etmiyor?</h2>
+      <p>Sistem sorulan soruları tarayıcında hatırlar ve aynı soruları sık göstermemeye çalışır.</p>
+
+      <h2>Soru hafızasını nasıl sıfırlarım?</h2>
+      <p>Quiz sayfasındaki “Soru Hafızasını Sıfırla” butonunu kullan.</p>
+
+      <h2>Reklamlar ne zaman gelecek?</h2>
+      <p>AdSense onayı alındıktan sonra reklam alanları eklenir. Şu an reklam yoktur.</p>
+
+      <h2>İçerik/soru katkısı yapabilir miyim?</h2>
+      <p>Evet. İletişim sayfasından önerilerini gönderebilirsin.</p>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Krampon Quiz</div>
+      <div><a href="privacy.html">Gizlilik</a> · <a href="cookies.html">Çerez</a> · <a href="terms.html">Şartlar</a></div>
+    </div>
+  </div>
+
+  <div class="cookie" id="cookieBanner">
+    <div class="row">
+      <p>Çerez tercihlerin için: <a href="cookies.html" style="color:#eaf0ff">Çerez Politikası</a></p>
+      <div class="actions">
+        <button id="cookieReject" type="button">Reddet</button>
+        <button class="accept" id="cookieAccept" type="button">Kabul Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

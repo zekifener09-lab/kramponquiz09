@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Krampon Quiz | Futbol Bilgi Yarışması</title>
+  <meta name="description" content="Krampon Quiz: Futbol kuralları, terimler ve genel bilgilerle 15 soruluk bilgi yarışması. Kolay/Orta/Zor modları."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <b>Krampon Quiz</b>
+          <span>Futbol bilgi yarışması & mini öğrenme</span>
+        </div>
+      </div>
+      <div class="links">
+        <a href="quiz.html">Quiz</a>
+        <a href="rules.html">Kurallar</a>
+        <a href="faq.html">SSS</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Futbol bilgin ne seviyede?</h1>
+      <p>
+        Krampon Quiz; futbolun temel kuralları, terimleri ve ölçüleri üzerine hazırlanmış kısa testlerle
+        bilgini tazeler. Oyna, öğren, tekrar et.
+      </p>
+      <a class="btn" href="quiz.html">Hemen Oyna</a>
+    </section>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Çok sayfalı yapı</h2>
+        <p>Hakkında/İletişim/Gizlilik/Çerez/SSS gibi sayfalarla gerçek site görünümü sağlar.</p>
+      </div>
+      <div class="card">
+        <h2>Kaliteli içerik</h2>
+        <p>Kurallar ve terimler sayfaları ile “içerik” kısmı güçlenir. Bu AdSense için önemli.</p>
+      </div>
+      <div class="card">
+        <h2>Tekrar etmeme</h2>
+        <p>Sorulan sorular tarayıcıda hatırlanır; aynı soruların sık gelmesi engellenir.</p>
+      </div>
+      <div class="card">
+        <h2>Temiz kullanıcı deneyimi</h2>
+        <p>Mobil uyumlu tasarım, çerez bildirimi ve sayfa içi gezinme.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Krampon Quiz</div>
+      <div>
+        <a href="privacy.html">Gizlilik</a> ·
+        <a href="cookies.html">Çerez</a> ·
+        <a href="terms.html">Kullanım Şartları</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie -->
+  <div class="cookie" id="cookieBanner">
+    <div class="row">
+      <p>
+        Bu site, deneyimi iyileştirmek ve (onay verirsen) reklam/ölçüm amaçlı çerezler kullanabilir.
+        Detay: <a href="cookies.html" style="color:#eaf0ff">Çerez Politikası</a>
+      </p>
+      <div class="actions">
+        <button id="cookieReject" type="button">Reddet</button>
+        <button class="accept" id="cookieAccept" type="button">Kabul Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

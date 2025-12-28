@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/quiz.html</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/rules.html</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/faq.html</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/cookies.html</loc>
+  </url>
+
+  <url>
+    <loc>https://krampon-quiz.netlify.app/terms.html</loc>
+  </url>
+
+</urlset>

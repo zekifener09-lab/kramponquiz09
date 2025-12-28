@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Krampon Quiz | Gizlilik Politikası</title>
+  <meta name="description" content="Krampon Quiz gizlilik politikası."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand"><div class="logo"></div><div><b>Krampon Quiz</b><span>Gizlilik</span></div></div>
+      <div class="links">
+        <a href="index.html">Anasayfa</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+    </nav>
+
+    <div class="hero content">
+      <h1>Gizlilik Politikası</h1>
+      <p>Bu metin bilgilendirme amaçlıdır ve Krampon Quiz’in temel veri işleyişini açıklar.</p>
+
+      <h2>Toplanan veriler</h2>
+      <ul>
+        <li><b>Kişisel hesap</b> yoktur; üyelik yapılmaz.</li>
+        <li>Quiz’de “tekrar etmeme” için tarayıcıda <b>localStorage</b> kullanılır (sorulan soru ID’leri).</li>
+        <li>İletişim sayfasından mail atarsan, mail içeriği e-posta sağlayıcın üzerinden iletilir.</li>
+      </ul>
+
+      <h2>Çerezler</h2>
+      <p>Çerez kullanımı hakkında detaylı bilgi için <a href="cookies.html" style="color:#eaf0ff">Çerez Politikası</a> sayfasına bak.</p>
+
+      <h2>Reklamlar (AdSense)</h2>
+      <p>İleride Google AdSense reklamları eklenirse, Google reklam amaçlı çerezler kullanabilir. Bu durumda sayfalar güncellenir.</p>
+
+      <h2>İletişim</h2>
+      <p>Gizlilik ile ilgili sorular için İletişim sayfasını kullan.</p>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Krampon Quiz</div>
+      <div><a href="cookies.html">Çerez</a> · <a href="terms.html">Şartlar</a></div>
+    </div>
+  </div>
+
+  <div class="cookie" id="cookieBanner">
+    <div class="row">
+      <p>Çerez tercihlerin için: <a href="cookies.html" style="color:#eaf0ff">Çerez Politikası</a></p>
+      <div class="actions">
+        <button id="cookieReject" type="button">Reddet</button>
+        <button class="accept" id="cookieAccept" type="button">Kabul Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

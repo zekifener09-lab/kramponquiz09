@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://krampon-quiz.netlify.app/sitemap.xml

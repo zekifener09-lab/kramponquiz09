@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Krampon Quiz | İletişim</title>
+  <meta name="description" content="Krampon Quiz iletişim ve geri bildirim."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand"><div class="logo"></div><div><b>Krampon Quiz</b><span>İletişim</span></div></div>
+      <div class="links">
+        <a href="index.html">Anasayfa</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="rules.html">Kurallar</a>
+        <a href="faq.html">SSS</a>
+      </div>
+    </nav>
+
+    <div class="hero content">
+      <h1>İletişim</h1>
+      <p>Öneri, hata bildirimi veya soru katkısı için bize ulaşabilirsin.</p>
+
+      <h2>E-posta</h2>
+      <p>
+        <b>Mail:</b> <span class="mini">kramponquiz@gmail.com</span><br/>
+   
+      </p>
+
+      <h2>Hızlı mesaj</h2>
+      <p class="mini">Bu buton cihazında mail uygulamasını açar.</p>
+      <a class="btn" href="mailto:kramponquiz@gmail.com?subject=Krampon%20Quiz%20İletişim&body=Merhaba,%0A%0A">Mail Gönder</a>
+
+      <hr/>
+      <p class="mini">Not: Krampon Quiz eğitim/eğlence amaçlıdır.</p>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Krampon Quiz</div>
+      <div><a href="privacy.html">Gizlilik</a> · <a href="cookies.html">Çerez</a> · <a href="terms.html">Şartlar</a></div>
+    </div>
+  </div>
+
+  <div class="cookie" id="cookieBanner">
+    <div class="row">
+      <p>Çerez tercihlerin için: <a href="cookies.html" style="color:#eaf0ff">Çerez Politikası</a></p>
+      <div class="actions">
+        <button id="cookieReject" type="button">Reddet</button>
+        <button class="accept" id="cookieAccept" type="button">Kabul Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

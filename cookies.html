@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Krampon Quiz | Çerez Politikası</title>
+  <meta name="description" content="Krampon Quiz çerez politikası ve tercih yönetimi."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand"><div class="logo"></div><div><b>Krampon Quiz</b><span>Çerez</span></div></div>
+      <div class="links">
+        <a href="index.html">Anasayfa</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="privacy.html">Gizlilik</a>
+      </div>
+    </nav>
+
+    <div class="hero content">
+      <h1>Çerez Politikası</h1>
+
+      <h2>Bu sitede neler kullanılır?</h2>
+      <ul>
+        <li><b>Gerekli depolama:</b> Quiz tekrar etmeme için localStorage (çerez değil, tarayıcı depolaması).</li>
+        <li><b>Tercih kaydı:</b> Çerez onay tercihini saklamak için localStorage.</li>
+      </ul>
+
+      <h2>Reklam çerezleri</h2>
+      <p>AdSense eklendiğinde Google reklam çerezleri kullanabilir. Bu durumda kullanıcı onayı ve bilgilendirme güncellenir.</p>
+
+      <h2>Tercihini değiştirme</h2>
+      <p>Tarayıcı ayarlarından site verilerini temizleyerek tercihlerini sıfırlayabilirsin.</p>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Krampon Quiz</div>
+      <div><a href="privacy.html">Gizlilik</a> · <a href="terms.html">Şartlar</a></div>
+    </div>
+  </div>
+
+  <div class="cookie" id="cookieBanner">
+    <div class="row">
+      <p>Çerez tercihlerin için bu bannerı kullanabilirsin.</p>
+      <div class="actions">
+        <button id="cookieReject" type="button">Reddet</button>
+        <button class="accept" id="cookieAccept" type="button">Kabul Et</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
